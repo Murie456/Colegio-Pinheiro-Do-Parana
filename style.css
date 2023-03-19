@@ -1,0 +1,54 @@
+body {
+    background-image: url(imagens/Teste2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo {
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav {
+    position: absolute;
+    left: 400px;
+    top: 170px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 27px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 10px;
+    text-transform: uppercase;
+    background: url(imagens/fundo1.jpg);
+    border-radius: 20px
+}
+
+nav a:hover {
+    color: rgb(41, 41, 41);
+    font-size: 35px;
+    padding: 17px;
+    background: url(imagens/fundo1.jpg);
+}
+
+.fotos {
+    margin: 20px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.frente1 {
+    margin: 12px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.frente1:hover {
+    border: 5px solid rgb(4, 49, 10);
+}

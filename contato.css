@@ -1,0 +1,83 @@
+body {
+    background-image: url(imagens/Teste3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo {
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav {
+    position: absolute;
+    left: 400px;
+    top: 170px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 27px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 10px;
+    text-transform: uppercase;
+    /* background-color: rgb(59, 59, 59); */
+    background: url(imagens/fundo1.jpg);
+    border-radius: 18px
+}
+
+nav a:hover {
+    color: rgb(112, 108, 108);
+    font-size: 35px;
+    padding: 10px;
+    background: url(imagens/fundo2.jpg);
+}
+
+
+nav a:hover {
+    font-size: 35px;
+    color: rgb(212, 208, 208);
+
+}
+
+
+.telefone {
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.telefone a {
+    color:rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.telefone a:hover {
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(11, 34, 10);
+}
+
+.email {
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.email a {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.email a:hover {
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(11, 34, 10);
+}

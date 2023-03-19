@@ -1,0 +1,87 @@
+body {
+    background-image: url(imagens/Teste1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo {
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav {
+    position: absolute;
+    left: 400px;
+    top: 170px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 27px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 10px;
+    text-transform: uppercase;
+    background: url(imagens/ceu1.jpg);
+    border-radius: 18px
+}
+
+nav a:hover {
+    color: rgb(112, 108, 108);
+    font-size: 35px;
+    padding: 10px;
+    background: url();
+}
+
+.mapa {
+    width: 600px;
+    margin: 1em auto;
+    padding: 0px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 20px
+}
+
+p {
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    /* font-weight: bold; */
+}
+
+.texto2 {
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+    color:rgb(0, 0, 0)
+}
+
+iframe {
+    border-radius: 20px;
+}
+
+nav a:hover {
+    font-size: 35px;
+    color: rgb(14, 13, 13);
+    background: url(imagens/ceu1.jpg);
+}
+
+div p:hover {
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    background: url(imagens/ceu1.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 30px;
+    text-transform: capitalize;
+    font-weight: bold;
+    border: 3px rgb(10, 10, 10) groove;
+}
+
+.mapa:hover {
+    border-color: rgb(111, 160, 216);
+}
